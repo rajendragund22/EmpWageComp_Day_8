@@ -10,6 +10,9 @@ public class EmployeeWageComp {
 
     public static void main(String[] args) {
         System.out.println("Welcome to the Employee Wage Computation Program !!");
+        EmployeeWageComp();
+    }
+    public static void EmployeeWageComp(){
         int workingDay = 20;
         int empHrs = 0;
         int empwage = 0;
